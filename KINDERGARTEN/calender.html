@@ -1,0 +1,139 @@
+<!--
+   template.html
+   
+   Template files for school kindergarten project
+   
+   
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>School Calendar - S.I.K</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.27" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css"/>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	
+	<script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+
+</head>
+
+<style>
+.main1{
+	padding: 5px;
+	}
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between
+	}
+.flex-item-left{
+	flex: 70%;
+	}
+.flex-item-right{
+	flex: 30%;
+	}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+}
+</style>
+
+<body>
+	
+<!-- Header start -->
+
+<header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"><img src="./assets/images/home-icon-g.png" style="margin-right: 4px;"width="24" height="24" alt="homepage">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html"><img src="./assets/images/about-g.png" style="margin-right: 4px;"width="24" height="24" alt="about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="enrollment.html"><img src="./assets/images/enroll-g.png" style="margin-right: 4px;"width="24" height="24" alt="enrollment">Enrollment</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="calender.html"><img src="./assets/images/calender-s.png" style="margin-right: 4px;"width="24" height="24" alt="calender">Calender <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"><img src="./assets/images/contact-g2.png" style="margin-right: 4px;"width="24" height="24" alt="contact">Contact us</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+    </header>
+
+<!-- Header end -->
+
+<!-- Title start -->
+<hr >
+<hr >
+<hr >
+
+
+	<div class="flex-container">
+		<div class="flex-item-left">
+		  <a href="index.html"><img src="./assets/images/site-icon-s32.png" style="margin-right: 4px; margin-left: 20px;"width="32" height="32" alt="site icon"></a><b>Calendar</b>
+		</div>
+		<div class="flex-item-right">
+		  <a href="mailto:applications@sik.sc.ke"><img src="./assets/images/black-email.png" style="margin-right: 4px; margin-left: 20px;"width="24" height="24" alt="send email">applications@sik.sc.ke</a>
+		  <a href="tel:+254-789-654-321"><img src="./assets/images/black-phone.png" style="margin-right: 4px;"width="24" height="24" alt="phone number">+254-789-654-321</a>
+		</div>
+
+	</div>
+
+<!-- Main start -->
+
+<main role="main">
+
+      <div class="container main1">
+
+         <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="https://calendar.google.com/calendar/embed?&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Africa%2FNairobi&amp;src=a2lrb21iZXlhaG9tZUBnbWFpbC5jb20&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=MWxlaWN0OWE2N2pxbHRnaTZwZm9nNXA4Ym9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4ua2UjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23039BE5&amp;color=%2333B679&amp;color=%237986CB&amp;color=%230B8043&amp;mode=MONTH" style="border:solid 1px #777" frameborder="0" scrolling="no"></iframe>
+			</div>
+
+        </div>
+
+        <!-- /END THE FEATURETTES -->
+
+      </div><!-- /.container -->
+
+
+      <!-- FOOTER -->
+      <footer class="container">
+		<hr class="featurette-divider">
+		
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2020 Group 3 project</p>
+      </footer>
+    </main>
+<!-- Main end -->
+
+	
+</body>
+
+</html>
